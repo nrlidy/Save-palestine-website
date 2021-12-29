@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>DONATE</title>
+    
+    <style>
+        div.static {
+          position: static;
+        }   
+        body{
+            font-family: 'Helvetica';
+            width: auto;
+        }
+        p{
+            color: #454545;
+        }
+        h2{
+            text-align:center;
+            font-family: 'Verdana';
+        }
+        h3{
+            text-align: center;
+            font-family: 'Verdana';
+        }
+    </style>
+    
+    <script>
+        var MenuItem = document.getElementById("MenuItem");
+
+			MenuItem.style.maxHeight = "0px";
+
+			function menutoggle(){
+				if(MenuItem.style.maxHeight == "0px")
+				{
+					MenuItem.style.maxHeight = "200px"
+				}
+				else
+				{
+					MenuItem.style.maxHeight = "0px"
+				}
+			}
+    </script>
+</head>
+    <body>
+    <div class="header">
+	<div class="container">
+	<div class="navbar">
+		<div class="logo">
+			<img src="image/palestine%20logo.png" width="100px">
+            <h1>#SAVE PALESTINE</h1>
+        </div>
+        <nav>
+			<ul id="MenuItem">
+				<li><a href="index.html">Home</a></li>
+				<li><div class="dropdown">
+					<button onclick="myFunction()" class="dropbtn">Topic</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="history.html">History of Palestine</a>
+                        <a href="conflict.html">Israeli–Palestinian conflict</a>
+                        </div>
+                    </div>
+                </li>
+				<li><a href="donate.html">Donate</a></li>
+			</ul>
+		</nav>
+        </div>
+        </div>
+    </div>
+        
+    <div class="small-container">
+        <div class="row">
+            <h1><b>Donate to Palestine</b></h1>
+            <br><p>You can refer to the pictures to donate to Palestine. Let's help our brothers and sisters in Palestine.</p>
+        </div>
+        
+        <div class="row">
+            <h2><b>Aid4Palestine</b></h2>
+            <img src="image/aid4palestine.jpg" alt="Jerusalem" width="700" height="555">
+        </div>
+        <hr>
+        <div class="row">
+            <h2><b>Aman Palestin</b></h2>
+            <img src="image/aman%20palestin.jpg" alt="Jerusalem" width="700" height="555">
+        </div>
+        <hr>
+        <div class="row">
+            <h2><b>Media Prima</b></h2>
+            <img src="image/sumbangan.jpg" alt="Jerusalem" width="700" height="555">
+        </div>
+        </div>
+        
+        <div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col">
+					<h3>Follow Us</h3>
+					<ul>
+                        <li><a href="https://www.facebook.com/">Facebook</a></li>
+                        <li><a href="https://twitter.com/login?lang=en">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/accounts/login/">Instagram</a></li>
+                        <li><a href="https://www.youtube.com/">YouTube</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+    </body>
+</html>
